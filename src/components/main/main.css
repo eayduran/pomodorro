@@ -1,0 +1,10 @@
+.container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(39, 39, 39);
+    color: azure;
+    font-size: 25px;
+}
