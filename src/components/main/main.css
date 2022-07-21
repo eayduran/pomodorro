@@ -8,3 +8,7 @@
     color: azure;
     font-size: 25px;
 }
+
+.point{
+    cursor: pointer;
+}
