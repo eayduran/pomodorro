@@ -86,7 +86,7 @@ const Main = () => {
     //****************
     
     return (
-        <div className='container' style={{justifyContent: 'space-around',alignItems: 'center',display: 'flex',background: darkmode? 'rgb(40, 40, 40)' : 'rgb(250, 250, 250)' }}>
+        <div className='container' style={{justifyContent: 'space-around',alignItems: 'center',display: 'flex',background: darkmode? 'rgb(40, 40, 40)' : 'rgb(250, 250, 250)',transition: "all 0.5s ease" }}>
             <div className="focstestt" style={{color: darkmode? 'white' : 'black', height: wwidth>500?150:80, display: 'flex',justifyContent: 'center',alignItems: 'center', textAlign: 'center',}}>
                    {
                         state.timerintitle 
